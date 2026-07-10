@@ -47,3 +47,9 @@ app.*.map.json
 # Vosk 语音模型(体积大,用户需要自行下载)
 assets/models/*.zip
 assets/models/vosk-model-*/
+# 编译产物
+build/
+android/build/
+
+# 第三方插件的示例项目(不需要)
+third_party/*/example/
